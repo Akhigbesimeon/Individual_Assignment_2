@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "676265042030",
+    "project_id": "sakhigbe-book-swap",
+    "storage_bucket": "sakhigbe-book-swap.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676265042030:android:c2ea638d8c5ee1d7d7067f",
+        "android_client_info": {
+          "package_name": "com.example.book_swap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAICAP_hareWZUobXxFvi-iz46bAwQ19Sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
