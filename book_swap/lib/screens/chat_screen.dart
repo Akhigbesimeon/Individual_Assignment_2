@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/book_listing.dart';
 import '../models/user_model.dart';
-import '../providers/bookswap_provider.dart';
+import '../providers/bookswap_providers.dart';
 import '../screens/chat_detail_screen.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
