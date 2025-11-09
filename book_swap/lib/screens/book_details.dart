@@ -1,5 +1,5 @@
 import '../models/book_listing.dart';
-import '../providers/bookswap_provider.dart';
+import '../providers/bookswap_providers.dart';
 import '../models/swap_offer.dart';
 import '../widgets/loading_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
