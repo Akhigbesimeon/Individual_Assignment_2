@@ -12,6 +12,15 @@ class FirestoreService {
   CollectionReference get _usersRef => _db.collection('users');
   CollectionReference get _chatsRef => _db.collection('chats');
 
+  Future<void> updateUserName(String uid, String newName) async {
+    try {
+      await _usersRef.doc(uid).update({'displayName': newName});
+    } catch (e) {
+      print('Error updating user name: $e');
+      rethrow;
+    }
+  }
+
   // book CRUD operations
   Stream<List<BookListing>> getAllListings() {
     return _listingsRef
